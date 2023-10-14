@@ -14,7 +14,7 @@ Keep Track of Changes
 Revert to Previous States
 Efficient Collaboration
 
-//---------Understanding Git
+//---------Understanding Git ------
 
 Git is essential for efficiently managing and tracking changes in your projects. 
 
