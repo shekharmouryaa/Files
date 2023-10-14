@@ -1,5 +1,7 @@
 ****** Introduction to React and JSX ******
-React - JavaScript library for building UI. developed by - Facebook
+
+React - JavaScript library for building UI.
+ developed by - Facebook
 
 Main Features - JSX (JavaScript XML)
 
@@ -20,7 +22,9 @@ start- 5 npm install packageName (for add other package/libraray in the app)
 
 
 ****** Understanding JSX (JavaScript XML) ******
-JSX, which stands for "JavaScript XML," is a syntax extension
+
+JSX, which stands for "JavaScript XML," is 
+a syntax extension
 for JavaScript often associated with React
 
 some key points to understand about JSX:
@@ -37,7 +41,7 @@ Self-Closing Tags:
 
 
 ****** Creating React Components with JSX ******
-
+Repo - https://github.com/shekharmouryaa/my-react-app.git
 Funtional Components 
 Class Components
 

@@ -1,7 +1,5 @@
 //---------Introduction to Version Control
 
-removing codeeeeee
-
 The primary purpose of version control is to keep track of every modification
 made to a project, allowing for easy collaboration, tracking changes,
 and providing a historical record of the project's evolution.
@@ -84,6 +82,5 @@ del - Delete Files: del oldfile.txt
 check version : softwareName -v
 
 Package Installation : npm install packageName
-
 
 //----------Using Git with Visual Studio
