@@ -1,0 +1,57 @@
+
+// JS LOOP
+
+// let x = 5;
+// for(let i=0; i<=x; i++){
+// console.log(i)
+// }
+
+
+// while(i<5){
+//     console.log("i -->" , i)
+//     i++;
+// }
+
+
+// let x = 5;
+// let i = 0;
+// do{
+// console.log("i -->" , i)
+// i++;
+// }while(i<x)
+
+
+// let x = 5;
+// let i = 0;
+// do{
+//     i++;
+// console.log("i -->" , i)
+// }while(i<x)
+
+// // JS OBJECT
+
+// const person = {
+//     firstName: "John",
+//     lastName: "Doe",
+//     age: 50,
+//   };
+
+//   let body = {
+//     "hairColor": "brown",
+//     "eyeColor": "blue"
+// }
+// person.body = body
+
+
+// let weekName =  ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']; 
+
+// let updatedWeek= weekName.map((item,index) => `${index+1} ${item} `)
+
+// weekName.sort()
+
+// let numbers = [33,24,56,12,50,11,1,2,7,32]
+
+// numbers.sort((a,b) => b - a)
+
+// op = [1,2,7,11,12,24,32,33,50,56]
+

@@ -1,0 +1,87 @@
+//---------Introduction to Version Control
+
+The primary purpose of version control is to keep track of every modification
+made to a project, allowing for easy collaboration, tracking changes,
+and providing a historical record of the project's evolution.
+
+
+Why should we use Version Control ??
+
+Chaos and Confusion 
+Risk of Losing Data
+Lack of Collaboration
+Keep Track of Changes
+Revert to Previous States
+Efficient Collaboration
+
+//---------Understanding Git
+
+Git is essential for efficiently managing and tracking changes in your projects. 
+
+How it's work ?
+
+Local Repository: 
+Branching:
+Committing:
+Merging Changes: 
+Collaboration: 
+Version History: 
+
+
+//----------Setting Up Git
+
+Step 1: Installation
+Step 2: Configuration
+Step 3: Verification/Get Configuration
+
+//----------Creating a Repository
+
+Step 1: Navigate to Your Project Directory
+Step 2: Initialize a Git Repository
+Step 3: Add Files to the Repository
+Step 5: Repository Created
+( Git repository on remote hosting services like GitHub, GitLab, or Bitbucket)
+
+
+//----------Basic Git Commands
+
+git init - Initialize a Repository:
+
+git clone - Clone a Repository:
+
+git clone https://github.com/username/repo.git
+
+git add - Stage Changes:
+
+git commit - Commit Changes:
+
+git status - Check Status:
+
+git log - View Commit History:
+
+git pull - Update from Remote:
+
+git push - Push to Remote:
+
+git branch - List Branches:
+
+//----------Introduction to Command Line (CMD)
+
+cd - Change Directory: cd C:\Users\YourUsername\Documents
+
+dir - List Directory Contents: dir
+
+mkdir - Create a Directory: mkdir MyNewFolder
+
+type - Display File Contents: type filename.txt
+
+copy - Copy Files: copy file1.txt D:\NewLocation\
+
+del - Delete Files: del oldfile.txt
+
+check version : softwareName -v
+
+Package Installation : npm install packageName
+
+
+//----------Using Git with Visual Studio

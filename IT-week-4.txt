@@ -1,0 +1,177 @@
+
+--------JavaScript Closures--------
+
+closure is a function that has access to variables from its outer (enclosing) function,
+even after that outer function has finished executing.
+This allows you to create private data and encapsulate functionality within functions.
+
+Closure in JavaScript is like a secret box that a function carries with it,
+even after it's done doing its main job.
+If you have a function, and inside that function, you have some special information (variables).
+Normally, when the function finishes its work, all that special information disappears.
+But with closures, you can keep that special information around and use it later.
+
+
+function createCounter() {
+  let count = 0;
+
+  // closure that can access and modify the count
+  // inner function
+
+  function increment() {
+    count++;
+    console.log(count);
+  }
+
+// return inner function
+  return increment;
+}
+
+const counter = createCounter();
+
+counter(); // Output: 1
+counter(); // Output: 2
+counter(); // Output: 3
+
+Without Closure
+
+function createCounter() {
+  let count = 0;
+   count++;
+  return count;
+}
+
+----------JavaScript Currying----------
+
+JavaScript currying is a functional programming technique that involves transforming
+a function that takes multiple arguments into a series of nested functions,
+each taking a single argument. The result is a new function that can be invoked with
+one argument at a time, gradually building up to the original function's full set of arguments.
+
+function add(x) {
+  return function(y) {
+    return x + y;
+  };
+}
+
+const add5 = add(5);  //
+console.log(add5(3)); // Outputs 8
+
+
+Promises and Asynchronous Programming
+
+// Javascript Promises 
+
+Promises in JavaScript are a way to handle asynchronous operations more cleanly and effectively.
+They represent a value that may be available now, in the future, or never.
+Promises have three states: pending, fulfilled, and rejected, which correspond to 
+an operation that is still in progress, completed successfully, 
+or encountered an error, respectively.
+
+
+// CREATE PROMISE
+const myPromise = new Promise((resolve, reject) => {
+
+  setTimeout(() => {
+    resolve('Promise resolved successfully after 4 seconds');
+  }, 4000)
+})
+
+// USE PROMISE
+
+myPromise.then((result) => {
+    console.log(result); // This will run when the promise is resolved
+  }).catch((error) => {
+    console.error(error); // This will run if there is an error (unlikely in this example)
+  });
+
+
+Shallow Copy and Deep Copy
+
+Shallow Copy: When a reference variable is copied into a new reference 
+variable using the assignment operator, a shallow copy of the referenced object
+ is created.
+
+let employee = {
+    eid: "E102",
+    ename: "Jack",
+    eaddress: "New York",
+    salary: 50000
+}
+ 
+console.log("Employee=> ", employee);
+let newEmployee = employee;    // Shallow copy
+console.log("New Employee=> ", newEmployee);
+ 
+console.log("---------After modification----------");
+newEmployee.ename = "Beck";
+console.log("Employee=> ", employee);
+console.log("New Employee=> ", newEmployee);
+
+Deep Copy: Unlike the shallow copy, deep copy makes a copy of all the members
+of the old object, allocates a separate memory
+location for the new object, and then assigns the copied members to the new object.
+
+
+
+
+Call, Apply, and Bind
+
+
+call:
+
+The call method is used to invoke a function immediately.
+It takes the value to which this should be set as its first argument,
+ and then any number of additional arguments.
+It executes the function with the specified this context and passes the arguments
+ one by one.
+
+function sayHello() {
+  console.log(`Hello, ${this.name}`);
+}
+
+const person = { name: 'John' };
+sayHello.call(person);
+ // Outputs: Hello, John
+
+
+apply:
+
+The apply method is similar to call, but it takes an array-like or 
+iterable object as its second argument, which is used to pass arguments to the function.
+It also invokes the function immediately with the specified this context.
+
+
+Example:
+
+function sayHello(greeting) {
+  console.log(`${greeting}, ${this.name}`);
+}
+
+const person = { name: 'John' };
+sayHello.apply(person, ['Hi']);
+
+ // Outputs: Hi, John
+
+bind:
+
+The bind method is used to create a new function with a fixed this context.
+It doesn't immediately invoke the function but instead returns a new function with
+ the specified this context.You can later execute the returned function.
+
+function sayHello() {
+  console.log(`Hello, ${this.name}`);
+}
+
+const person = { name: 'John' };
+const boundFunction = sayHello.bind(person);
+boundFunction(); // Outputs: Hello, John
+
+
+Generators
+Error Handling and Debugging
+
+
+
+
+

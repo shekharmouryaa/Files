@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+MC+5TK5a/uHo+LZt1+3d0gO5cr5P5e3L5+hC5S+tq5z5Zv3" crossorigin="anonymous">
+    <title>Header with Logo, Search, and Login</title>
+    <style>
+        /* Custom styles for the header */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .custom-header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+        }
+
+        /* Style for the logo */
+        .custom-logo img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Style for the search bar */
+        .custom-search-bar {
+           
+            margin: 0 20px;
+        }
+
+        /* Style for the login link */
+        .custom-login-link a {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        .container{
+            display: flex;
+            justify-content: space-between;
+
+        }
+    </style>
+</head>
+<body>
+    <header class="custom-header">
+        <div class="container d-flex align-items-center">
+            <div class="custom-logo">
+                <img src="your-logo.png" alt="Logo">
+            </div>
+            <div class="custom-search-bar">
+                <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <div class="custom-login-link">
+                <a href="#">Login</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Add the rest of your content here -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-NYviHY3FzZM5Wsl7e6Bw5fj05z5I9X3/2pGq8p+Pp1fd4/A5w5/+zV4x5f5S5b6f5" crossorigin="anonymous"></script>
+</body>
+</html>
