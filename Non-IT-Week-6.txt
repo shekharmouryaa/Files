@@ -1,0 +1,47 @@
+
+****** Introduction to React and JSX ******
+
+React - JavaScript library for building UI.Its developed by - Facebook
+
+Main Features - JSX (JavaScript XML)
+
+JSX - which is a syntax extension that allows you to write HTML-like
+code within your JavaScript code
+
+****** Setting up React Development Environment ***** 
+
+Step - 1 Install Node
+
+Step - 2 Check node version after installtion
+
+Step - 3 npx create-react-app my-react-app (Create react app)
+
+Step - 4 npm start (Run App)
+
+start- 5 npm install packageName (for add other package/libraray in the app)
+
+
+****** Understanding JSX (JavaScript XML) ******
+
+JSX, which stands for "JavaScript XML," is a syntax extension
+for JavaScript often associated with React
+
+some key points to understand about JSX:
+
+Components:
+Embedding HTML in JavaScript: 
+JavaScript inside HTML element: 
+Attributes and Props
+Self-Closing Tags:
+
+
+****** Creating React Components with JSX ******
+
+****** JSX Attributes and Props  ******
+
+****** JSX Expressions and Dynamic Content ******
+
+****** JSX and HTML Elements ******
+
+For above topics -
+Repo - https://github.com/shekharmouryaa/wetube.git

@@ -1,0 +1,16 @@
+Today's Topics:
+
+ => Introduction 
+ => React Class Components
+ => Lifecycle of Components
+ => React Functional Components
+ => Passing and Using Props
+ => React Component Lifecycle and Effects
+ => Rendering Lists of Data
+ => React Hooks
+ => Higher-Order Component (HOC)
+
+
+
+
+
