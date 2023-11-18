@@ -1,0 +1,14 @@
+
+
+Introduction to React Components
+Creating Functional Components
+Passing and Using Props
+React Component Lifecycle and Effects
+Rendering Lists of Data
+
+
+Introduction to React Router
+Navigating Between Routes
+Route Parameters and Dynamic Routing
+Practice Question
+
